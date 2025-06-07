@@ -1,2 +1,4 @@
 #!/bin/bash
+echo "OLDPWD is: $OLDPWD"
 cd "$OLDPWD"
+echo "Now in: $(pwd)"
